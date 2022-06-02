@@ -1,1 +1,1 @@
-# py-sql
+pyqt5 basic forms
