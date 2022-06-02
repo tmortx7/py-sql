@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 
 from utils import app_path
 
-engine = create_engine('sqlite:///{}'.format(app_path('db/items.db')))
+engine = create_engine('sqlite:///{}'.format(app_path('db/dbdata.db')))
 Session = sessionmaker(bind=engine)
 
 Base = declarative_base()
